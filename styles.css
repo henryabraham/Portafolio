@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 90vh;
+}
+
+section#hero{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem ;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.Proyects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyect-detail{
+    border: 10px solid lightseagreen;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.projec-detail img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:beige ;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
+
+.img_1 {
+    width: 98%;
+    height: 85%;
+}
+.projects{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.img_proyecto1{
+    width: 160px;
+    height: 160px;
+}
+
+.img_portafolio {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.text_form{
+    text-align: center;
+}
+
+button {
+    padding-left: 5px;
+    height: 32px;
+    width: 80px;
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    
+    
+}
+
