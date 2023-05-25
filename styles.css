@@ -69,13 +69,19 @@ nav ul li{
     font-size: 1.3rem;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     height: 80px;
 }
 
 .img_proyecto1{
     width: 160px;
+    height: 180px;
+    margin-top: 15px;
+}
+.img_proyecto2{
+    width: 160px;
     height: 160px;
+    margin-top: 20px;   
 }
 
 .img_portafolio {
@@ -111,4 +117,36 @@ button {
     
     
 }
+.habilidades{
+    text-align: center;
+ height: auto;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+
+
+.habilidades h2{
+    font-size: 1.5rem;
+}
+
+.habilidades{
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 480px) {
+
+h1 {
+    font-size: 2.5rem;
+}
+.titulo-pro{
+    font-size: 1.8rem;
+padding-top: 20px;
+}
+.img_1{
+    height: 600px;
+}
+.home{
+    height: 725px;
+}
+  }
 
